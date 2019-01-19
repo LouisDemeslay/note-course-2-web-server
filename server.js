@@ -48,4 +48,4 @@ app.get('/bad', (req,res)=>{
   })
 })
 
-app.listen(3000, console.log(`server is on port ${port}`))
+app.listen(port, console.log(`server is on port ${port}`))
